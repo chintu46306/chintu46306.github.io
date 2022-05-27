@@ -47,6 +47,17 @@ body{
     justify-content: space-around;
 }
 
+@media screen and (max-width: 500px) {
+    .infocontainer{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .chintuPic{
+        width: 80vw;
+        overflow: hidden;
+    }
+}
+
 .chintuInfo {
     display: flex;
     justify-content: centre;
